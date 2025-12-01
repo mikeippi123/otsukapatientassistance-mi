@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/otsukapatientassistance-mi/:/",
+    "/content/otsukapatientassistance-mi/configuration:/.helix/config.json",
+    "/content/otsukapatientassistance-mi/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/otsukapatientassistance-mi/"
   ]
 }
