@@ -183,26 +183,28 @@
     "id": "field-item",
     "fields": [
       {
+        "component": "text",
+        "name": "name",
+        "label": "Class Name",
+        "description": "The label will be added as a class name to the block for styling purposes."
+      },
+      {
         "component": "select",
         "name": "width",
         "label": "Container Width",
         "valueType": "string",
         "options": [
           {
-            "name": "Default (1400px)",
-            "value": ""
+            "name": "Top (footer)",
+            "value": "top"
           },
           {
-            "name": "Narrow (1200px)",
-            "value": "narrow"
+            "name": "Middle (footer)",
+            "value": "middle"
           },
           {
-            "name": "Wide (1600px)",
-            "value": "wide"
-          },
-          {
-            "name": "Fluid (Full Width)",
-            "value": "fluid"
+            "name": "Bottom (footer)",
+            "value": "bottom"
           }
         ]
       }
