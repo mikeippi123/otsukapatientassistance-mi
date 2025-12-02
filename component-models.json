@@ -210,6 +210,17 @@
     ]
   },
   {
+    "id": "field-items",
+    "fields": [
+      {
+        "component": "text",
+        "name": "class-name",
+        "label": "Class Name",
+        "description": "The label will be added as a class name to the block for styling purposes."
+      }
+    ]
+  },
+  {
     "id": "fragment",
     "fields": [
       {

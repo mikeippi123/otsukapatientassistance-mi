@@ -1,12 +1,27 @@
 {
   "definitions": [
     {
+      "title": "Field Items",
+      "id": "field-items",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block",
+            "template": {
+              "name": "Field Items",
+              "model": "field-items"
+            }
+          }
+        }
+      }
+    },
+    {
       "title": "Field Item",
       "id": "field-item",
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "core/franklin/components/block/v1/block",
+            "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
               "name": "Field Item",
               "model": "field-item"
@@ -46,9 +61,26 @@
           ]
         }
       ]
+    },
+    {
+      "id": "field-items",
+      "fields": [
+        {
+          "component": "text",
+          "name": "class-name",
+          "label": "Class Name",
+          "description": "The label will be added as a class name to the block for styling purposes."
+        }
+      ]
     }
   ],
   "filters": [
+        {
+      "id": "field-items",
+      "components": [
+        "field-item"
+      ]
+    },
     {
       "id": "field-item",
       "components": [
