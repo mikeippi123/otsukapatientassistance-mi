@@ -20,19 +20,19 @@ function readBlockConfig(block) {
 export default function decorate(block) {
   // Read block configuration from the first rows (property rows)
   const config = readBlockConfig(block);
-  
+
   // Apply class name if provided
   if (config.name || config['class-name']) {
     const className = config.name || config['class-name'];
     block.classList.add(className);
   }
-  
+
   // Apply style/position as a class if provided
   if (config.style || config['container-position']) {
     const style = config.style || config['container-position'];
     block.classList.add(style);
   }
-  
+
   // Remove the configuration rows (first 2 rows with 2 columns)
   const configRows = [];
   block.querySelectorAll(':scope > div').forEach((row) => {
