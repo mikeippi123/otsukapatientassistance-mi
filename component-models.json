@@ -190,9 +190,8 @@
       },
       {
         "component": "select",
-        "name": "width",
-        "label": "Container Width",
-        "valueType": "string",
+        "name": "container-position",
+        "label": "Container Position",
         "options": [
           {
             "name": "Top (footer)",
