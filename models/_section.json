@@ -33,18 +33,6 @@
             {
               "name": "Highlight",
               "value": "highlight"
-            },
-            {
-              "name": "Top",
-              "value": "top"
-            },
-            {
-              "name": "Middle",
-              "value": "middle"
-            },
-            {
-              "name": "Bottom",
-              "value": "bottom"
             }
           ]
         }
@@ -62,7 +50,9 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "otsuka cards",
+        "field item"
       ]
     }
   ]

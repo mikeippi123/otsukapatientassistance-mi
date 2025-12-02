@@ -1,0 +1,38 @@
+.field-item {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+@media (width >= 576px) {
+  .field-item {
+    padding: 0 2rem;
+  }
+}
+
+@media (width >= 992px) {
+  .field-item {
+    padding: 0 2.5rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .field-item {
+    padding: 0 3rem;
+  }
+}
+
+/* Narrow variant */
+.field-item.narrow {
+  max-width: 1200px;
+}
+
+/* Wide variant */
+.field-item.wide {
+  max-width: 1600px;
+}
+
+/* Fluid variant - no max-width */
+.field-item.fluid {
+  max-width: none;
+}

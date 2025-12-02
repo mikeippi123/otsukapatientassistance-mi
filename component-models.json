@@ -136,18 +136,6 @@
           {
             "name": "Highlight",
             "value": "highlight"
-          },
-          {
-            "name": "Top",
-            "value": "top"
-          },
-          {
-            "name": "Middle",
-            "value": "middle"
-          },
-          {
-            "name": "Bottom",
-            "value": "bottom"
           }
         ]
       }
@@ -188,6 +176,35 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
+      }
+    ]
+  },
+  {
+    "id": "field-item",
+    "fields": [
+      {
+        "component": "select",
+        "name": "width",
+        "label": "Container Width",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Default (1400px)",
+            "value": ""
+          },
+          {
+            "name": "Narrow (1200px)",
+            "value": "narrow"
+          },
+          {
+            "name": "Wide (1600px)",
+            "value": "wide"
+          },
+          {
+            "name": "Fluid (Full Width)",
+            "value": "fluid"
+          }
+        ]
       }
     ]
   },
