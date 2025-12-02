@@ -184,7 +184,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "name",
+        "name": "class-name",
         "label": "Class Name",
         "description": "The label will be added as a class name to the block for styling purposes."
       },
