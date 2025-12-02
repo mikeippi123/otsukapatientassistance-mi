@@ -134,8 +134,16 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
-            "value": "highlight"
+            "name": "Top (footer)",
+            "value": "top"
+          },
+          {
+            "name": "Middle (footer)",
+            "value": "middle"
+          },
+          {
+            "name": "Bottom (footer)",
+            "value": "bottom"
           }
         ]
       }
@@ -176,36 +184,6 @@
         "name": "rows",
         "value": "",
         "label": "Rows"
-      }
-    ]
-  },
-  {
-    "id": "field-item",
-    "fields": [
-      {
-        "component": "text",
-        "name": "name",
-        "label": "Class Name",
-        "description": "The label will be added as a class name to the block for styling purposes."
-      },
-      {
-        "component": "select",
-        "name": "style",
-        "label": "Container Position",
-        "options": [
-          {
-            "name": "Top (footer)",
-            "value": "top"
-          },
-          {
-            "name": "Middle (footer)",
-            "value": "middle"
-          },
-          {
-            "name": "Bottom (footer)",
-            "value": "bottom"
-          }
-        ]
       }
     ]
   },
