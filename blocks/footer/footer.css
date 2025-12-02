@@ -1,6 +1,11 @@
 footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+    font-family: "Museo Sans", sans-serif;
+    color: #fff;
+    font-size: 0.6875rem;
+    line-height: 1.1818;
+    padding: 5.625rem 2.5rem;
+    font-weight: 300;
+    background: #434343;
 }
 
 footer .footer > div {
