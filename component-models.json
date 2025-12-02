@@ -210,17 +210,6 @@
     ]
   },
   {
-    "id": "field-items",
-    "fields": [
-      {
-        "component": "text",
-        "name": "class-name",
-        "label": "Class Name",
-        "description": "The label will be added as a class name to the block for styling purposes."
-      }
-    ]
-  },
-  {
     "id": "fragment",
     "fields": [
       {
@@ -246,25 +235,6 @@
         "name": "imageAlt",
         "label": "Alt",
         "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "otsuka card",
-    "fields": [
-      {
-        "component": "reference",
-        "valueType": "string",
-        "name": "image",
-        "label": "Image",
-        "multi": false
       },
       {
         "component": "richtext",

@@ -16,7 +16,6 @@
       "cards",
       "columns",
       "fragment",
-      "otsuka cards",
       "field-items"
     ]
   },
@@ -57,14 +56,7 @@
       "hero",
       "cards",
       "columns",
-      "fragment",
-      "otsuka cards"
-    ]
-  },
-  {
-    "id": "otsuka cards",
-    "components": [
-      "otsuka card"
+      "fragment"
     ]
   }
 ]
