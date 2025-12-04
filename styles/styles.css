@@ -11,91 +11,230 @@
  */
 
 :root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+    /* colors */
+    --background-color: white;
+    --light-color: #f8f8f8;
+    --dark-color: #505050;
+    --text-color: #131313;
+    --link-color: #3b63fb;
+    --link-hover-color: #1d3ecf;
 
-  /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+    /* ========================================================================
+   Otsuka Patient Assistance Foundation Design System
+   ======================================================================== */
+    --c-dark-grayish-blue: #282b3a;
+    --c-cyan-green: #50ffc5;
+    --c-purple: #8980ff;
+    --c-turquoise: #6eebfa;
+    --c-dark-blue: #1924b2;
+    --c-color-outline: rgb(89 181 227 / 80%);
+    --c-text: #434343;
+    --c-text-alt: #717171;
+    --c-text-heading: #434343;
+    --c-text-heading-alt: #4a6cb3;
+    --c-text-heading-red: #ba202e;
+    --c-text-blockquote: #ba202e;
+    --c-text-figcaption: #ba202e;
+    --c-top-region-background: #ba202e;
+    --c-link-color: #ba202e;
+    --c-opaf-error: #ee0004;
+    --c-accordion: #717171;
+    --c-exernal-popup: #a7c8e8;
+    --c-text-inverse: #fff;
+    --c-theme-blue: #005e83;
+    --c-theme-yellow: #ffb740;
+    --c-background: #fff;
+    --c-background-section: #dfe3e6;
+    --c-primary: #005de0;
+    --c-secondary: #8980ff;
+    --c-accent: #4c4c4c;
+    --c-accent-high: #373d42;
+    --c-highlight: #ccc;
+    --c-highlight-high: #dfe3e6;
+    --c-muted: #f2f2f2;
+    --c-warning: #f9fb93;
+    --c-error: #fbe3e4;
+    --c-message: #cfefc2;
+    --c-scroll-tray: rgb(234 231 231);
+    --c-scroll-coach: rgb(134 132 133);
+    --c-scroll-coach-hover: rgb(101 101 101);
+    --c-slider-text: #717171;
+    --c-slider-text-active: #fff;
+    --c-slider-background: #fff;
+    --c-slider-background-active: #4a6cb3;
+    --c-slider-arrow: #a7c8e8;
+    --c-slider-arrow-hover: #4a6cb3;
+    --c-slider-dot: #a7c8e8;
+    --c-slider-dot-hover: #c8d0da;
+    --c-slider-dot-active: #4a6cb3;
+    --c-red-icon: #ba202e;
+    --c-gray: #666;
+    --c-gray-light: #888;
+    --c-gray-darker: #333;
+    --c-black: #373d42;
+    --c-blue: #005de0;
+    --c-charcoal: #434343;
+    --c-purple-light: #ae63b0;
+    --c-light-blue-100: #f8fbfd;
+    --c-light-blue-200: #eaf1f5;
+    --c-light-blue-300: #eaf2fa;
+    --c-light-blue-400: #a7c8e8;
+    --c-light-blue-500: #c8d0da;
+    --c-light-blue-gradient: #dde5ed;
+    --c-otsuka-blue: #4a6cb3;
+    --c-outline: rgb(89 181 227 / 80%);
+    --c-mark: #fcff66;
+    --c-white: #fff;
+    --c-wizard-white: #fff;
+    --c-wizard-red: #ba202e;
+    --c-wizard-blue: #4a6cb3;
 
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+    /* fonts */
+    --body-font-family: roboto, roboto-fallback, sans-serif;
+    --heading-font-family: roboto-condensed, roboto-condensed-fallback,
+        sans-serif;
 
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+    /* body sizes */
+    --body-font-size-m: 22px;
+    --body-font-size-s: 19px;
+    --body-font-size-xs: 17px;
 
-  /* nav height */
-  --nav-height: auto;
+    /* heading sizes */
+    --heading-font-size-xxl: 55px;
+    --heading-font-size-xl: 44px;
+    --heading-font-size-l: 34px;
+    --heading-font-size-m: 27px;
+    --heading-font-size-s: 24px;
+    --heading-font-size-xs: 22px;
+
+    /* nav height */
+    --nav-height: auto;
+
+    /* ========================================================================
+   Otsuka Patient Assistance Foundation Design System Sizes
+   ======================================================================== */
+    --v-header-height-mobile: 77px;
+    --v-header-height-desktop: 96px;
+    --v-sidebar-md: 300px;
+    --v-sidebar-xl: 400px;
+    --v-sidebar-xxl: 545px;
+    --v-isi-height: 182px;
+    --v-isi-height-open: 218px;
+    --v-modal-default-width: 956px;
+    --v-modal-small-width: 605px;
+    --v-modal-big-width: 1200px;
+    --v-modal-max-width-mobile: 500px;
+    --v-play-btn-mobile-size: 63px;
+    --v-play-btn-mobile-size-half: 31.5px;
+    --v-play-btn-desktop-size: 150px;
+    --v-play-btn-desktop-size-half: 75px;
+    --s-hor-thin: 0.0625rem;
+    --s-thick: 0.125rem;
+    --s-half-small: 0.25rem;
+    --s-small: 0.5rem;
+    --s-half-medium: 0.75rem;
+    --s-medium: 1rem;
+    --s-half-large: 1.25rem;
+    --s-large: 1.5rem;
+    --s-extra-large: 2rem;
+    --s-extra-extra-large: 2.5rem;
+    --s-extra-extra-extra-large: 3rem;
+    --s-extra-extra-extra-extra-large: 3.5rem;
+    --s-largest: 6.875rem;
+    --s-n-hor-thin: -0.0625rem;
+    --s-n-thick: -0.125rem;
+    --s-n-half-small: -0.25rem;
+    --s-n-small: -0.5rem;
+    --s-n-half-medium: -0.75rem;
+    --s-n-medium: -1rem;
+    --s-n-half-large: -1.25rem;
+    --s-n-large: -1.5rem;
+    --s-n-extra-large: -2rem;
+    --s-n-extra-extra-large: -2.5rem;
+    --s-n-extra-extra-extra-large: -3rem;
+    --s-n-extra-extra-extra-extra-large: -3.5rem;
+    --s-n-largest: -6.875rem;
+    --f-s-sm: 0.875rem;
+    --f-s-lg: 1.25rem;
+    --f-s-xxs: 0.5rem;
+    --f-s-xs: 0.75rem;
+    --f-s-d: 1rem;
+    --f-s-m: 1.125rem;
+    --f-s-xl: 1.475rem;
+    --f-s-xxl: 2rem;
+    --f-s-xxxl: 3.5rem;
+    --f-f-headline: "Museo Sans", sans-serif;
+    --f-f-body: "Museo Sans", sans-serif;
+    --f-f-code: "SFMono-Regular", consolas, "Liberation Mono", menlo, courier,
+        monospace;
+    --f-f-fallback: -apple-system, blinkmacsystemfont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    --l-h-heading-1: 1.4;
+    --l-h-heading-2: 1.6;
+    --l-h-heading-3: 1.3;
+    --l-h-heading-4: 1.5;
+    --t-s-fast: 0.15s;
+    --t-s-normal: 0.3s;
+    --t-s-slow: 0.6s;
 }
 
 /* fallback fonts */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+    font-family: roboto-condensed-fallback;
+    size-adjust: 88.82%;
+    src: local("Arial");
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
-  src: local('Arial');
+    font-family: roboto-fallback;
+    size-adjust: 99.529%;
+    src: local("Arial");
 }
 
 @media (width >= 900px) {
-  :root {
-    /* body sizes */
-    --body-font-size-m: 18px;
-    --body-font-size-s: 16px;
-    --body-font-size-xs: 14px;
+    :root {
+        /* body sizes */
+        --body-font-size-m: 18px;
+        --body-font-size-s: 16px;
+        --body-font-size-xs: 14px;
 
-    /* heading sizes */
-    --heading-font-size-xxl: 45px;
-    --heading-font-size-xl: 36px;
-    --heading-font-size-l: 28px;
-    --heading-font-size-m: 22px;
-    --heading-font-size-s: 20px;
-    --heading-font-size-xs: 18px;
-  }
+        /* heading sizes */
+        --heading-font-size-xxl: 45px;
+        --heading-font-size-xl: 36px;
+        --heading-font-size-l: 28px;
+        --heading-font-size-m: 22px;
+        --heading-font-size-s: 20px;
+        --heading-font-size-xs: 18px;
+    }
 }
 
 body {
-  display: none;
-  margin: 0;
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-family: var(--body-font-family);
-  font-size: var(--body-font-size-m);
-  line-height: 1.6;
+    display: none;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--body-font-family);
+    font-size: var(--body-font-size-m);
+    line-height: 1.6;
 }
 
 body.appear {
-  display: block;
+    display: block;
 }
 
 header {
-  height: var(--nav-height);
+    height: var(--nav-height);
 }
 
 header .header,
 footer .footer {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
-  visibility: visible;
+    visibility: visible;
 }
 
 h1,
@@ -104,20 +243,37 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
-  font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
-  scroll-margin: 40px;
+    margin-top: 0.8em;
+    margin-bottom: 0.25em;
+    font-family: var(--heading-font-family);
+    font-weight: 600;
+    line-height: 1.25;
+    scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
-h2 { font-size: var(--heading-font-size-xl); }
-h3 { font-size: var(--heading-font-size-l); }
-h4 { font-size: var(--heading-font-size-m); }
-h5 { font-size: var(--heading-font-size-s); }
-h6 { font-size: var(--heading-font-size-xs); }
+h1 {
+    font-size: var(--heading-font-size-xxl);
+}
+
+h2 {
+    font-size: var(--heading-font-size-xl);
+}
+
+h3 {
+    font-size: var(--heading-font-size-l);
+}
+
+h4 {
+    font-size: var(--heading-font-size-m);
+}
+
+h5 {
+    font-size: var(--heading-font-size-s);
+}
+
+h6 {
+    font-size: var(--heading-font-size-xs);
+}
 
 p,
 dl,
@@ -125,133 +281,146 @@ ol,
 ul,
 pre,
 blockquote {
-  margin-top: 0.8em;
-  margin-bottom: 0.25em;
+    margin-top: 0.8em;
+    margin-bottom: 0.25em;
 }
 
 code,
 pre {
-  font-size: var(--body-font-size-s);
+    font-size: var(--body-font-size-s);
 }
 
 pre {
-  padding: 16px;
-  border-radius: 8px;
-  background-color: var(--light-color);
-  overflow-x: auto;
-  white-space: pre;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--light-color);
+    overflow-x: auto;
+    white-space: pre;
 }
 
 main > div {
-  margin: 40px 16px;
+    margin: 40px 16px;
 }
 
 input,
 textarea,
 select,
 button {
-  font: inherit;
+    font: inherit;
 }
 
 /* links */
 a:any-link {
-  color: var(--link-color);
-  text-decoration: none;
-  overflow-wrap: break-word;
+    color: var(--link-color);
+    text-decoration: none;
+    overflow-wrap: break-word;
 }
 
 a:hover {
-  color: var(--link-hover-color);
-  text-decoration: underline;
+    color: var(--link-hover-color);
+    text-decoration: underline;
 }
 
 /* buttons */
 a.button:any-link,
 button {
-  box-sizing: border-box;
-  display: inline-block;
-  max-width: 100%;
-  margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
-  font-family: var(--body-font-family);
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.25;
-  text-align: center;
-  text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
-  cursor: pointer;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 100%;
+    margin: 12px 0;
+    border: 2px solid transparent;
+    border-radius: 2.4em;
+    padding: 0.5em 1.2em;
+    font-family: var(--body-font-family);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--link-color);
+    color: var(--background-color);
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
-  cursor: pointer;
+    background-color: var(--link-hover-color);
+    cursor: pointer;
 }
 
 button:disabled,
 button:disabled:hover {
-  background-color: var(--light-color);
-  cursor: unset;
+    background-color: var(--light-color);
+    cursor: unset;
 }
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+    background-color: unset;
+    border: 2px solid currentcolor;
+    color: var(--text-color);
+}
+
+img,
+picture {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 main img {
-  max-width: 100%;
-  width: auto;
-  height: auto;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .icon {
-  display: inline-block;
-  height: 24px;
-  width: 24px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
 }
 
 .icon img {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
 /* sections */
 main > .section {
-  margin: 40px 0;
+    margin: 40px 0;
 }
 
 main > .section > div {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 24px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
 }
 
 main > .section:first-of-type {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 @media (width >= 900px) {
-  main > .section > div {
-    padding: 0 32px;
-  }
+    main > .section > div {
+        padding: 0 32px;
+    }
 }
 
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
-  margin: 0;
-  padding: 40px 0;
+    background-color: var(--light-color);
+    margin: 0;
+    padding: 40px 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
