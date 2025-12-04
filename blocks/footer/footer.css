@@ -63,10 +63,10 @@ footer .middle {
     font-weight: 300;
 }
 
-.footer .section.middle .text-long p {
-    margin: 0 0 2.5rem;
-    margin: 0 0 var(--s-extra-extra-large);
-}
+  /* .footer .section.middle .text-long p {
+      margin: 0 0 2.5rem;
+      margin: 0 0 var(--s-extra-extra-large);
+  } */
 
 .footer .section.top .main-menu a,
 .footer .section.section.bottom .copyright,
