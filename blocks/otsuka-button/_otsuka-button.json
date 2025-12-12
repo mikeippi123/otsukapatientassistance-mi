@@ -1,0 +1,66 @@
+{
+  "definitions": [
+    {
+      "title": "Otsuka Button",
+      "id": "otsuka-button",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/button/v1/button",
+            "template": {
+              "model": "otsuka-button"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "otsuka-button",
+      "fields": [
+        {
+          "component": "aem-content",
+          "name": "link",
+          "label": "Link"
+        },
+        {
+          "component": "text",
+          "name": "linkText",
+          "label": "Text"
+        },
+        {
+          "component": "text",
+          "name": "linkTitle",
+          "label": "Title"
+        },
+        {
+          "component": "select",
+          "name": "style",
+          "label": "Button Style",
+          "options": [
+            {
+              "name": "Red",
+              "value": "otsuka-red-button"
+            },
+            {
+              "name": "White",
+              "value": "otsuka-white-button"
+            },
+            {
+              "name": "Secondary",
+              "value": "secondary"
+            }
+          ]
+        },
+        {
+          "component": "boolean",
+          "name": "showArrow",
+          "label": "Show Arrow Icon",
+          "valueType": "boolean"
+        }
+      ]
+    }
+  ],
+  "filters": []
+}

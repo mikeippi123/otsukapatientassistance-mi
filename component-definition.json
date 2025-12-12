@@ -158,14 +158,14 @@
           }
         },
         {
-          "title": "Otsuka Hero",
-          "id": "otsuka-hero",
+          "title": "Otsuka Button",
+          "id": "otsuka-button",
           "plugins": {
             "xwalk": {
               "page": {
-                "resourceType": "core/franklin/components/section/v1/section",
+                "resourceType": "core/franklin/components/button/v1/button",
                 "template": {
-                  "model": "otsuka-hero"
+                  "model": "otsuka-button"
                 }
               }
             }
