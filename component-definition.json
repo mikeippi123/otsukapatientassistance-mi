@@ -158,6 +158,20 @@
           }
         },
         {
+          "title": "Otsuka Hero",
+          "id": "otsuka-hero",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/section",
+                "template": {
+                  "model": "otsuka-hero"
+                }
+              }
+            }
+          }
+        },
+        {
           "title": "Video",
           "id": "video",
           "plugins": {

@@ -254,6 +254,32 @@
     ]
   },
   {
+    "id": "otsuka-hero",
+    "fields": [
+      {
+        "component": "text",
+        "name": "name",
+        "label": "Otsuka Hero Name",
+        "description": "The label shown for this Otsuka Hero in the Content Tree"
+      },
+      {
+        "component": "select",
+        "name": "herotype",
+        "label": "Hero Type",
+        "options": [
+          {
+            "name": "Default",
+            "value": ""
+          },
+          {
+            "name": "Homepage",
+            "value": "homepage"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "video",
     "fields": [
       {

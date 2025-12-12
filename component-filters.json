@@ -2,7 +2,8 @@
   {
     "id": "main",
     "components": [
-      "section"
+      "section",
+      "otsuka-hero"
     ]
   },
   {
@@ -32,6 +33,15 @@
   },
   {
     "id": "column",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title"
+    ]
+  },
+  {
+    "id": "otsuka-hero",
     "components": [
       "text",
       "image",
