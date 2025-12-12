@@ -6,9 +6,8 @@
       "plugins": {
         "xwalk": {
           "page": {
-            "resourceType": "core/franklin/components/block/v1/block",
+            "resourceType": "core/franklin/components/section/v1/section",
             "template": {
-              "name": "Otsuka Hero",
               "model": "otsuka-hero"
             }
           }
@@ -24,7 +23,8 @@
           "component": "text",
           "name": "name",
           "label": "Otsuka Hero Name",
-          "description": "The label shown for this Otsuka Hero in the Content Tree"
+          "description": "The label shown for this Otsuka Hero in the Content Tree",
+          "value": "Otsuka Hero"
         },
         {
           "component": "select",
